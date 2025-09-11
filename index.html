@@ -45,9 +45,10 @@
             <label for="">Name:</label>
             <input type="text"  required >
             <label for="">Email</label>
-            <input type="text" required>
+            <input type="email" name="email" required>
             <label for="">Phone:</label>
-            <input type="tel" required>
+            <input type="tel" name="phone" pattern="[0-9]{10}" 
+           title="Enter a 10-digit phone number" required><br><br>
             <button>Submit</button>
         </form>
         <br>
